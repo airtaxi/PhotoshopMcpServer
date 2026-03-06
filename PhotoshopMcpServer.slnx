@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="PhotoshopMcpServer.Tests/PhotoshopMcpServer.Tests.csproj" />
+  <Project Path="PhotoshopMcpServer/PhotoshopMcpServer.csproj" />
+</Solution>
