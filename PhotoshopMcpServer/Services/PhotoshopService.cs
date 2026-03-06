@@ -126,8 +126,8 @@ public sealed class PhotoshopService : IPhotoshopService, IDisposable
             return new PhotoshopDocumentInfo(
                 Name: document.Name?.ToString() ?? string.Empty,
                 FilePath: document.FullName?.ToString() ?? string.Empty,
-                Width: (int)document.Width.Value,
-                Height: (int)document.Height.Value,
+                Width: (int)(double)document.Width,
+                Height: (int)(double)document.Height,
                 ColorMode: document.Mode?.ToString() ?? string.Empty,
                 Resolution: (double)document.Resolution
             );
